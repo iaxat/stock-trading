@@ -9,8 +9,8 @@
 # 4. Three Analysis on the data
 # 5. Results inside results.json
 
-import requests  # thre request library is used to use api to request for data
-# path is called for chekcing if the file exists and that helps in calling different functions
+import requests  # three request library is used to use api to request for data
+# path is called for checking if the file exists and that helps in calling different functions
 from os import path
 import time  # time library is used for the sleep to avoid api max out
 import json  # json is called to be used for creating json file
@@ -41,7 +41,7 @@ def append(ticker):
     # if the data is outdated this fucntion will find the latest data using api and update the files
     # this helps save time as searching and gathering all the data each time takes a lot of time and internet
     # this function's basic usage is resource saving
-    url = 'http://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=' + \
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=' + \
         ticker+'&outputsize=full&apikey=' + API_KEY
     req = requests.get(url)
     time.sleep(13)
@@ -84,7 +84,7 @@ def process_json(ticker):
     # this function is used in a situation where the ticker file does not exist
     # this fucntion creates a file in the scenario the user puts the ticker name & is not present to the algorithms for analysis
     # in that scenario using the api this function will gather all the dat and create a file and make it available for analysis
-    url = 'http://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=' + \
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=' + \
         ticker+'&outputsize=full&apikey=' + API_KEY
     req = requests.get(url)
     time.sleep(13)

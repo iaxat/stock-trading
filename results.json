@@ -1,0 +1,132 @@
+Simple Moving Average{
+      "AAPL.csv": {
+            "total profit": 235.47639999999996,
+            "profit percent": 244.34616581923828
+      },
+      "CSCO.csv": {
+            "total profit": -106.58649999999997,
+            "profit percent": -141.53034125614124
+      },
+      "FB.csv": {
+            "total profit": 42.673999999999836,
+            "profit percent": 157.46863468634623
+      },
+      "GOOGL.csv": {
+            "total profit": 593.0555999999998,
+            "profit percent": 549.5835418404224
+      },
+      "JPM.csv": {
+            "total profit": -10.839100000000073,
+            "profit percent": -12.845579521213645
+      },
+      "MSFT.csv": {
+            "total profit": -79.5062000000003,
+            "profit percent": -88.52711279367588
+      },
+      "TMUS.csv": {
+            "total profit": 6.094999999999956,
+            "profit percent": 21.273996509598454
+      },
+      "TSLA.csv": {
+            "total profit": 241.13529999999997,
+            "profit percent": 1329.3015435501652
+      },
+      "TTM.csv": {
+            "total profit": 44.4400000000001,
+            "profit percent": 469.27138331573485
+      },
+      "XOM.csv": {
+            "total profit": -153.23860000000008,
+            "profit percent": -206.21531422419602
+      }
+}
+Mean Reversion{
+      "AAPL.csv": {
+            "total profit": -231.52880000000152,
+            "profit percent": -240.24987029158612
+      },
+      "CSCO.csv": {
+            "total profit": -160.0660999999995,
+            "profit percent": -212.54295578276387
+      },
+      "FB.csv": {
+            "total profit": 125.77940000000021,
+            "profit percent": 424.93040540540613
+      },
+      "GOOGL.csv": {
+            "total profit": 594.8888,
+            "profit percent": 551.2823649337411
+      },
+      "JPM.csv": {
+            "total profit": -49.01099999999945,
+            "profit percent": -58.08366911590359
+      },
+      "MSFT.csv": {
+            "total profit": 16.373499999999943,
+            "profit percent": 18.204914387369296
+      },
+      "TMUS.csv": {
+            "total profit": 43.98999999999987,
+            "profit percent": 155.99290780141797
+      },
+      "TSLA.csv": {
+            "total profit": -102.43210000000016,
+            "profit percent": -588.6902298850584
+      },
+      "TTM.csv": {
+            "total profit": 37.48779999999995,
+            "profit percent": 395.8585005279826
+      },
+      "XOM.csv": {
+            "total profit": -78.50170000000037,
+            "profit percent": -105.64082895976365
+      }
+}
+Bollinger Bands{
+      "AAPL.csv": {
+            "total profit": 483.25640000000004,
+            "profit percent": 459.150973871734
+      },
+      "CSCO.csv": {
+            "total profit": 8.822299999999991,
+            "profit percent": 8.491145332050039
+      },
+      "FB.csv": {
+            "total profit": 176.74039999999994,
+            "profit percent": 553.87151363209
+      },
+      "GOOGL.csv": {
+            "total profit": 963.9679999999997,
+            "profit percent": 569.2164157071153
+      },
+      "JPM.csv": {
+            "total profit": 46.65999999999997,
+            "profit percent": 64.1374570446735
+      },
+      "MSFT.csv": {
+            "total profit": 45.643000000000015,
+            "profit percent": 43.99325301204821
+      },
+      "TMUS.csv": {
+            "total profit": 9.060000000000004,
+            "profit percent": 26.73354971968133
+      },
+      "TSLA.csv": {
+            "total profit": 461.69539999999995,
+            "profit percent": 2922.122784810126
+      },
+      "TTM.csv": {
+            "total profit": -8.679999999999994,
+            "profit percent": -78.19819819819816
+      },
+      "XOM.csv": {
+            "total profit": -28.759999999999977,
+            "profit percent": -36.460446247464475
+      }
+}
+Max Return{
+      "ticker": "GOOGL",
+      "strategy": "Simple Moving Average",
+      "returns": 963.9679999999997,
+      "percent": 569.2164157071153
+}
