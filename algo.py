@@ -30,7 +30,7 @@ API_KEY = 'NG9C9EPVYBMQT0C8'
 mean_reversion_dict = {}
 simple_average_dict = {}
 bb_dict = {}
-# These dictonaries are not used for the highest data returns but for the json dump file
+# These dictionaries are not used for the highest data returns but for the json dump file
 
 #
 
