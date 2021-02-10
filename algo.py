@@ -70,7 +70,8 @@ def append(ticker):
 
     # new lines is used here to make the whole series of data in an well arranged order to be used by the algorithms
     new_lines = new_lines[::-1]
-    csv_file = open("/home/ubuntu/environment/final_project/" +
+    # Enter the directory
+    csv_file = open("Enter the Directory Here" +
                     ticker + ".csv", "a")  # opening the file to append data
     csv_file.writelines(new_lines)  # appending new data
     csv_file.close()
